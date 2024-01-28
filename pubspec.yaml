@@ -1,0 +1,75 @@
+name: ecommerce_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  flutter_otp_text_field: ^1.1.1
+  shared_preferences: ^2.2.2
+  get_it: ^7.6.6
+  easy_stepper: ^0.8.3
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/welcome/
+    - assets/images/onboarding/
+    - assets/images/banners/
+    - assets/images/categories/
+    - assets/images/products/
+    - assets/images/
+
+    - assets/icons/
+
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+          style: normal
+        - asset: assets/fonts/roboto/Roboto-BlackItalic.ttf
+          style: italic
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+          style: normal
+        - asset: assets/fonts/roboto/Roboto-BoldItalic.ttf
+          style: italic  
+        - asset: assets/fonts/roboto/Roboto-Italic.ttf
+          style: italic  
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+          style: normal  
+        - asset: assets/fonts/roboto/Roboto-LightItalic.ttf
+          style: italic  
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+          style: normal  
+        - asset: assets/fonts/roboto/Roboto-MediumItalic.ttf
+          style: italic  
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          style: normal  
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+          style: normal  
+        - asset: assets/fonts/roboto/Roboto-ThinItalic.ttf
+          style: italic 
